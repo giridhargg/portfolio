@@ -9,6 +9,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
 }
 
 html {
@@ -270,9 +271,14 @@ section {
 }
 
 .about-containers {
-  gap: 2rem;
+  /* gap: 2rem; */
   margin-bottom: 2rem;
   margin-top: 2rem;
+
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 0.8rem;
+  justify-content: space-around;
 }
 
 .about-details-container {
