@@ -9,7 +9,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  overflow-x: hidden;
+  overflow-x: hidden; 
 }
 
 html {
@@ -302,6 +302,7 @@ section {
 }
 
 .details-container {
+  height: fit-content;
   padding: 1.5rem;
   flex: 1;
   background: white;
@@ -452,3 +453,21 @@ footer p {
   align-items: center; 
   justify-content: center;
 }
+/* 
+.dark-mode {
+
+  background-color: color-mix(in srgb, Canvas, CanvasText 2.5%);
+  color: color-mix(in srgb, CanvasText, Canvas 15%);
+}
+
+.light-mode {
+  background-color: #fff;
+  color: rgb(85, 85, 85);
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  /* background-color: color-mix(in srgb, Canvas, CanvasText 2.5%);
+  color: color-mix(in srgb, CanvasText, Canvas 15%);
+} */
